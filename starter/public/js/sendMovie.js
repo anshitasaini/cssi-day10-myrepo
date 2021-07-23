@@ -17,7 +17,7 @@ const username = "martin";
 const password = "mypass";
 const dbRef = firebase.database().ref();
 
-const submitBtn = document.querySelector('');
+const submitBtn = document.querySelector('#add_Movie');
 const movieTitle = document.querySelector('#submit_Moviename');
 const movieGenre = document.querySelector('#submit_Genre');
 const movieRating = document.querySelector('#rate1_10');
