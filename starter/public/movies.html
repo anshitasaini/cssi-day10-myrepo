@@ -19,60 +19,46 @@
   </head>
   
   <body>
-    <section class = "hero is-small notification is-primary has-text-centered">
-    <div class="hero-body">
-      <h1 class="title is-1 ">Welcome please enter your username and password to access your movies!</h1>
-    </div>
-    </section>
-      
+    
+    <h1 class="title has-text-centered">Please search your movies here!</h1>
     
 <!--   Form Start   -->
     <div class= "columns">
       <div class = "column is-half is-offset-one-quarter">
         <form class="box">
         <div class="field">
-          <label class="label">Username</label>
+          <label class="label">Movie</label>
           <div class="control">
-            <input class="input" type="text" id = "name" placeholder="codelover2000">
+            <input class="input" type="text" id = "submit_Moviename" placeholder="Submit a movie">
           </div>
         </div>
 
         <div class="field">
-          <label class="label">Password</label>
+          <label class="label">Choose a Genre for the movie </label>
           <div class="control">
-            <input class="input" id = "password" type="password" placeholder="********">
+            <input class="input" id = "submit_Genre" type="text" placeholder="Choose a Genre">
+          </div>
+        </div>
+        
+        <div class="field">
+          <label class="label">Rate it 1-5 stars </label>
+          <div class="control">
+            <input class="input" id = "rate1_5" type="text" placeholder="Choose a rating">
+          </div>
+        </div>
+          
+        <div class="field">
+          <label class="label">Submit an image link </label>
+          <div class="control">
+            <input class="input" id = "image_link" type="text" placeholder="Choose a rating">
           </div>
         </div>
 
-        <button class="button is-primary" id ="signin">Sign in</button>
+        <button class="button is-primary" id ="add_Movie">Add Movie</button>
       </form>
       </div>
     </div>
-<!--  Form End    -->
     
-<!--   SLideshow   -->
-    <div class="columns">
-      <div class = "column is-half is-offset-one-quarter">
-        
-      </div>
-
-      <div class="mySlides">
-        <img src="https://pbs.twimg.com/media/E2AIHRRXMAgyW4b.jpg" style="width:50% , height: 50%">
-      </div>
-
-      <div class="mySlides fade">
-        <img src="img_snow_wide.jpg" style="width:100%">
-      </div>
-
-      <div class="mySlides fade">
-        <img src="img_mountains_wide.jpg" style="width:100%">
-      </div>
-
-  </div>
-
-
-
-<!--   End of Slideshow   -->
   </body>
   
 </html>
